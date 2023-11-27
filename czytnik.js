@@ -57,9 +57,7 @@ function display () {
     const downloadFile = (file) => {
         const element = document.createElement('a');
         element.setAttribute('href', 'Download Btn', target="_blank");
-        element.setAttribute('download', file);
-        window.alert(file);
-      
+        element.setAttribute('download', file);      
         element.style.display = 'none';
       
         document.body.appendChild(element);
@@ -68,7 +66,6 @@ function display () {
         document.body.removeChild(element);
       }
     
-
 
 
 
